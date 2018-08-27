@@ -1,0 +1,6 @@
+server:
+  port: 8081
+
+user:
+  name: Junno
+  age: 21
