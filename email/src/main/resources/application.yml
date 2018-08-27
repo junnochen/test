@@ -1,0 +1,19 @@
+#JavaMailSender邮件发送的配置
+spring:
+  mail:
+    host: smtp.163.com
+    username: 15167987663@163.com
+    password: cjl972811        #授权码登录
+    from: 15167987663@163.com  #发送方账号信息
+    properties:
+      mail:
+        smtp:
+          auth: true
+          timeout: 25000
+          starttls:
+            enable: true
+            required: true
+sendmails:
+  touser: junnochen@163.com  #发送给谁
+title:
+  name: firstEmail  #标题文件
